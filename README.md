@@ -68,3 +68,5 @@ Expected per draw: 4096 fragment shader invocations, 16384 samples passed.
 2_samplemask_discard_a2c      centre pixel = (  0,  0,  0)  FS invocations =  4160  samples passed =     0  -> BUG (expected red)
 3_samplemask_discard_no_a2c   centre pixel = (255,  0,  0)  FS invocations =  4160  samples passed = 16384  -> OK (red)
 ```
+
+Disclaimer: The cpp code for the minimal example in this repo has been generated with Claude.
